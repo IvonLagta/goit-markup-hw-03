@@ -137,6 +137,7 @@ a {
   justify-content: center;
 }
 .goal-item {
+  width: calc((100% - 72px) / 4);
 }
 .goal-header {
   font-weight: 500;
