@@ -1,11 +1,11 @@
 .portfolio-item {
   width: calc((100% - 48px) / 3);
+  max-width: calc((100% - 48px) / 3); /* prevents flex stretching */
+  flex: 0 0 calc((100% - 48px) / 3); /* if inside flex container */
+  box-sizing: border-box;
 }
 .goal-item {
   width: calc((100% - 72px) / 4);
-  max-width: calc((100% - 72px) / 4); /* prevents flex stretching */
-  flex: 0 0 calc((100% - 72px) / 4); /* if inside flex container */
-  box-sizing: border-box;
 }
 .team-item {
   background-color: #ffffff;
@@ -17,6 +17,10 @@ body {
   font-size: 16px;
   color: #434455;
   background-color: #ffffff;
+}
+a {
+  text-decoration: none;
+  color: inherit;
 }
 img {
   display: block;
@@ -37,7 +41,12 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
+}
+.logo-footer {
   display: inline-block;
+  margin-bottom: 16px;
+  margin-left: 0px;
 }
 .logo-dark {
   color: #2e2f42;
@@ -92,10 +101,6 @@ ol {
 .address a:focus {
   color: #404bbf;
 }
-a {
-  text-decoration: none;
-  color: inherit;
-}
 .distribution {
   background-color: #2e2f42;
   padding: 180px 0;
@@ -121,7 +126,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  display: block;
   min-width: 169px;
   height: 56px;
 }
@@ -237,4 +241,3 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
