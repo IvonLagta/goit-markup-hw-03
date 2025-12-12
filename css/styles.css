@@ -3,6 +3,9 @@
 }
 .goal-item {
   width: calc((100% - 72px) / 4);
+  max-width: calc((100% - 72px) / 4); /* prevents flex stretching */
+  flex: 0 0 calc((100% - 72px) / 4); /* if inside flex container */
+  box-sizing: border-box;
 }
 .team-item {
   background-color: #ffffff;
@@ -234,3 +237,4 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
