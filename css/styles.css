@@ -24,6 +24,16 @@ div {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+}
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 76px;
   margin-bottom: 16px;
   display: inline-block;
 }
@@ -32,10 +42,10 @@ div {
 }
 .logo-bright {
   color: #f4f4fd;
-  display: inline-block;
 }
-header li {
+ul > li {
   list-style: none;
+  flex-basis: calc((100% - 72px) / 4);
 }
 .header {
   display: flex;
@@ -122,9 +132,6 @@ a {
 .distribution button:focus {
   background-color: #404bbf;
 }
-.goal-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
-}
 .goal {
   padding: 120px 0;
   background-color: #f4f4fd;
@@ -134,8 +141,10 @@ a {
   gap: 24px;
   justify-content: center;
 }
+.goal-item {
+  flex-basis: calc((100% - 72px) / 4);
+}
 .goal-header {
-  flex-basis: calc((100% - 3 * 24px) / 4);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -144,7 +153,6 @@ a {
   margin-bottom: 8px;
 }
 .goal-paragraph {
-  flex-basis: calc((100% - 3 * 24px) / 4);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
