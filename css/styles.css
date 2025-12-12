@@ -133,7 +133,7 @@ ol {
   gap: 24px;
   justify-content: center;
 }
-.goal-item {
+.goalli {
    width: calc((100% - 72px) / 4);
 }
 .goal-header {
@@ -240,6 +240,7 @@ ol {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 
 
 
