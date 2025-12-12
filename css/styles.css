@@ -7,9 +7,7 @@ body {
 img {
   display: block;
 }
-div {
-  display: flex;
-}
+
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -245,3 +243,4 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 } */
+
