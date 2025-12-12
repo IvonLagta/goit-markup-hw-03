@@ -135,7 +135,7 @@ ol {
 }
 .goal-item {
   display: block;
-  width: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 .goal-header {
   font-weight: 500;
@@ -241,4 +241,5 @@ ol {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 
