@@ -123,7 +123,7 @@ a {
   background-color: #404bbf;
 }
 .goal-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .goal {
   padding: 120px 0;
@@ -135,7 +135,7 @@ a {
   justify-content: center;
 }
 .goal-header {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -144,7 +144,7 @@ a {
   margin-bottom: 8px;
 }
 .goal-paragraph {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
