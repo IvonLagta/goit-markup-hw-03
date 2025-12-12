@@ -30,6 +30,8 @@ div {
 }
 .logo-bright {
   color: #f4f4fd;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 ul > li {
   list-style: none;
@@ -242,3 +244,4 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
