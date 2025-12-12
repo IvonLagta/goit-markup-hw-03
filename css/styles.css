@@ -101,6 +101,8 @@ ol {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .distribution-button {
   font-size: 16px;
@@ -115,6 +117,7 @@ ol {
   min-width: 169px;
   height: 56px;
   display: block;
+  margin: 0 auto;
 }
 .distribution button:hover {
   background-color: #404bbf;
@@ -131,8 +134,7 @@ ol {
   justify-content: center;
 }
 .goal-item {
-  /* width: calc((100% - 3 * 24px) / 4); */
-  width: 24px;
+  width: calc((100% - 3 * 24px) / 4);
 }
 .goal-header {
   font-weight: 500;
@@ -238,5 +240,3 @@ ol {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
-
