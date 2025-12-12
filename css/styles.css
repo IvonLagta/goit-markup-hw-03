@@ -116,7 +116,6 @@ ol {
   cursor: pointer;
   min-width: 169px;
   height: 56px;
-  display: block;
   margin: 0 auto;
 }
 .distribution button:hover {
@@ -134,7 +133,7 @@ ol {
   justify-content: center;
 }
 .goal-item {
-   width: calc((100% - 3 * 24px) / 4);
+   width: calc((100% - 72px) / 4);
 }
 .goal-header {
   font-weight: 500;
@@ -240,6 +239,7 @@ ol {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 
 
 
