@@ -21,9 +21,6 @@ img {
 .header > div {
   display: flex;
 }
-div {
-  box-sizing: border-box;
-}
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -37,8 +34,6 @@ div {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px;
-  margin-bottom: 16px;
   display: inline-block;
 }
 .logo-dark {
@@ -46,9 +41,9 @@ div {
 }
 .logo-bright {
   color: #f4f4fd;
-  display: inline-block;
 }
-ul > li {
+ul,
+ol {
   list-style: none;
 }
 .header {
@@ -64,12 +59,7 @@ ul > li {
   display: flex;
   gap: 40px;
 }
-.address-list {
-  display: flex;
-  gap: 40px;
-}
 .menu-link {
-  display: block;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -87,7 +77,11 @@ ul > li {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-left: auto;
+}
+.address-list {
   display: flex;
+  gap: 40px;
 }
 .address a:hover {
   color: #404bbf;
