@@ -16,8 +16,6 @@ div {
   padding: 0 15px;
 }
 .logo {
-  display: inline-block;
-  margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -32,6 +30,7 @@ div {
 }
 .logo-bright {
   color: #f4f4fd;
+  display: inline-block;
 }
 ul > li {
   list-style: none;
@@ -231,7 +230,7 @@ a {
   max-width: 264px;
 }
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -243,6 +242,4 @@ a {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-
+} */
