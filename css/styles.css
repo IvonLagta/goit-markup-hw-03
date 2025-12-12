@@ -132,10 +132,11 @@ ol {
   display: flex;
   gap: 24px;
   justify-content: center;
+  width: calc((100% - 72px) / 4);
 }
-.goal-list > li {
-   width: calc((100% - 72px) / 4);
-}
+/* .goal-list > li {
+   
+} */
 .goal-header {
   font-weight: 500;
   font-size: 20px;
@@ -240,6 +241,7 @@ ol {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 
 
 
